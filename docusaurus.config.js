@@ -1,78 +1,79 @@
 module.exports = {
-  title: 'SOULs',
-  tagline: 'Build optimized Ruby GraphQL Relay API Server Quickly, focus on your business logic',
-  url: 'https://souls-doc.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'elsoul', // Usually your GitHub org/user name.
-  projectName: 'souls_doc', // Usually your repo name.
+  title: "SOULs",
+  tagline:
+    "Build optimized Ruby GraphQL Relay API Server Quickly, focus on your business logic",
+  url: "https://elsoul.github.io/souls_doc/",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "elsoul", // Usually your GitHub org/user name.
+  projectName: "souls_doc", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'SOULs',
+      title: "SOULs",
       logo: {
-        alt: 'SOULs Logo',
-        src: 'img/logo.svg',
+        alt: "SOULs Logo",
+        src: "img/logo.svg",
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+          to: "docs/",
+          activeBasePath: "docs",
+          label: "Docs",
+          position: "left",
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: "blog", label: "Blog", position: "left" },
         {
-          href: 'https://github.com/elsoul/souls',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/elsoul/souls",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: "Style Guide",
+              to: "docs/",
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: "Second Doc",
+              to: "docs/doc2/",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: "Stack Overflow",
+              href: "https://stackoverflow.com/questions/tagged/docusaurus",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: "Discord",
+              href: "https://discordapp.com/invite/docusaurus",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/Fumitas',
+              label: "Twitter",
+              href: "https://twitter.com/Fumitas",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: "Blog",
+              to: "blog",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/elsoul/souls',
+              label: "GitHub",
+              href: "https://github.com/elsoul/souls",
             },
           ],
         },
@@ -82,22 +83,20 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/elsoul/souls/edit/master/website/',
+          editUrl: "https://github.com/elsoul/souls/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/elsoul/souls/edit/master/website/blog/',
+          editUrl: "https://github.com/elsoul/souls/edit/master/website/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
