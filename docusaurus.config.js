@@ -2,7 +2,7 @@ module.exports = {
   title: "SOULs",
   tagline:
     "Build optimized Ruby GraphQL Relay API Server Quickly, focus on your business logic",
-  url: "https://souls-doc.el-soul.com/souls_doc/",
+  url: "https://souls-doc.el-soul.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
