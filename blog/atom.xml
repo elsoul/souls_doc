@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://elsoul.github.io/souls_doc/blog</id>
+    <id>https://souls-doc.el-soul.com/blog</id>
     <title>SOULs Blog</title>
     <updated>2015-10-25T23:29:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://elsoul.github.io/souls_doc/blog"/>
+    <link rel="alternate" href="https://souls-doc.el-soul.com/blog"/>
     <subtitle>SOULs Blog</subtitle>
-    <icon>https://elsoul.github.io/souls_doc/img/favicon.ico</icon>
+    <icon>https://souls-doc.el-soul.com/img/favicon.ico</icon>
 </feed>
