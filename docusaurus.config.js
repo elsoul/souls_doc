@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "https://el-soul.com/icons/favicon-32x32.png",
   organizationName: "elsoul", // Usually your GitHub org/user name.
   projectName: "souls_doc", // Usually your repo name.
   themeConfig: {
@@ -14,7 +14,7 @@ module.exports = {
       title: "SOULs",
       logo: {
         alt: "SOULs Logo",
-        src: "img/logo.svg",
+        src: "img/logo.png",
       },
       items: [
         {

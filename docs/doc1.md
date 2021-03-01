@@ -1,7 +1,7 @@
 ---
 id: doc1
-title: Introduction
-sidebar_label: Introduction
+title: Installation
+sidebar_label: Installation
 slug: /
 ---
 
